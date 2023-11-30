@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.max-widht {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.bg {
+  background: url("diagrama5.png")
+    no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+
+.logo {
+  background: url("diagrama2.png");
+  background-size: contain;
+  width: 150px;
+  height: 80px;
+  position: relative;
+  z-index: 9;
+}
+
+.text-gd {
+  font-size: 64px;
+}
+
+.text-md {
+  font-size: 36px;
+}
+
+.text-pq {
+  font-size: 14px;
+}
+
+.text-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.color-cinza {
+  color: #545454;
+}
+
+.color-preto {
+  color: #000000;
+}
+
+.color-amarelo {
+  color: rgb(245, 211, 19);
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.left {
+  width: 50%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2%;
+}
+
+.right {
+  width: 50%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  padding: 10px 20px;
+  background: #a1a1a1;
+  color: #000000;
+  font-size: 14px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  border: #daf04a;
+  background: #fff;
+  color: #daf04a;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 0 2%;
+  width: 100%;
+  min-height: 800px;
+}
+
+down {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  min-height: 250px;
+}
+
+.titulo {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.box {
+  width: 25%;
+  min-height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2%;
+}
+
+.info {
+  display: flex;
+}
+
+#home .container {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column; /* Adicionado para empilhar verticalmente os elementos */
+  align-items: center;
+  margin-top: 10px;
+}
+
+.search-box input {
+  margin-bottom: 10px; /* Adicionado espaço entre o input e o botão */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo hover para o botão */
+.search-box button:hover {
+  background-color: #2980b9;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: rgb(245, 211, 19);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(245, 211, 19);
+}
+
+.options {
+  margin-top: 15px;
+}
+
+.options a {
+  text-decoration: none;
+  color: rgb(245, 211, 19);
+}
+
+.options .divider {
+  margin: 0 10px;
+  color: #333;
+}
+
+.bg {
+  background: url("diagrama5.png")
+    no-repeat;
+  background-size: cover;
+  height: auto;
+}
+/* Css Cadastro  */
+body1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cadastro-container {
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(245, 211, 19);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(245, 211, 19);
+}
+
+.options {
+  margin-top: 15px;
+}
+
+.options a {
+  text-decoration: none;
+  color: rgb(245, 211, 19);
+}
+
+.options .divider {
+  margin: 0 10px;
+  color: #333;
+}
+/* Es_Senha  */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cadastro-container,
+.es-senha-container {
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(245, 211, 19);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(245, 211, 19);
+}
+
+.options {
+  margin-top: 15px;
+}
+
+.options a {
+  text-decoration: none;
+  color: rgb(245, 211, 19);
+}
+
+.options .divider {
+  margin: 0 10px;
+  color: #333;
+}
+.erro {
+        white-space: pre-wrap;
+        font-family: monospace;
+        color: red;
+        margin-top: 10px; /* Ajuste o espaçamento superior conforme necessário */
+    }

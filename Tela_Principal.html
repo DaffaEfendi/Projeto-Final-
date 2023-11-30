@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CulinariaClick</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg">
+    <header class="max-width" id="home">
+      <div class="container">
+        <div class="menu">
+          <div class="logo"></div>
+          <div class="desktop-menu">
+            <ul>
+              <li><a href="#">Pesquisar</a></li>
+              <li><a href="#">Sair</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="call">
+          <div class="left">
+            <img
+              src="diagrama7.png"
+              alt=""
+            />
+          </div>
+
+          <div class="right">
+            <h1 class="color-preto text-gd">Culinaria Click</h1>
+          </div>
+        </div>
+        <div class="search-box">
+          <h1 class="color-preto text-md">Pesquise sua Receita</h1>
+          <input type="text" placeholder="Pesquisar..." />
+          <button type="button">Buscar</button>
+        </div>
+      </div>
+    </header>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.querySelector(".search-box input");
+        const searchButton = document.querySelector(".search-box button");
+
+        searchButton.addEventListener("click", function () {
+          searchInput.value = "";
+        });
+      });
+    </script>
+  </body>
+</html>
